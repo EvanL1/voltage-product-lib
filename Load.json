@@ -12,7 +12,11 @@
     {"id":2,"name":"Energy Used","unit":"kwh","type":"number"},
     {"id":3,"name":"Voltage","unit":"V","type":"number"},
     {"id":4,"name":"Current","unit":"A","type":"number"},
-    {"id":5,"name":"Frequency","unit":"Hz","type":"number"}
+    {"id":5,"name":"Frequency","unit":"Hz","type":"number"},
+    {"id":6,"name":"Energy Increment","unit":"ΔkWh","type":"number"},
+    {"id":7,"name":"Power Factor","unit":"","type":"number"},
+    {"id":8,"name":"Reactive Power","unit":"kVar","type":"number"},
+    {"id":9,"name":"Apparent Power","unit":"kVa","type":"number"}
   ],
   "A": []
 }
