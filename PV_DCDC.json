@@ -21,7 +21,12 @@
     {"id":6,"name":"Start Stop Status","unit":"","type":"number"},
     {"id":7,"name":"PV Power","unit":"kw","type":"number"},
     {"id":8,"name":"PV Voltage","unit":"V","type":"number"},
-    {"id":9,"name":"PV Current","unit":"A","type":"number"}
+    {"id":9,"name":"PV Current","unit":"A","type":"number"},
+    {"id":10,"name":"Peak Efficiency","unit":"%","type":"number"},
+    {"id":11,"name":"Average Efficiency","unit":"%","type":"number"},
+    {"id":12,"name":"Minimum Efficiency","unit":"%","type":"number"},
+    {"id":13,"name":"Solar Panels","unit":"%","type":"number"},
+    {"id":14,"name":"PV System","unit":"%","type":"number"}
   ],
   "A": [
     {"id":1,"name":"Start","unit":"","type":"string"},

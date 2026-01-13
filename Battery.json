@@ -28,7 +28,8 @@
     {"id":15,"name":"Cell Voltage Difference","unit":"V","type":"number"},
     {"id":16,"name":"Avg Cell Temperature","unit":"℃","type":"number"},
     {"id":17,"name":"Cell Voltage Array","unit":"V","type":"number"},
-    {"id":18,"name":"Cell Temperature Array","unit":"℃","type":"number"}
+    {"id":18,"name":"Cell Temperature Array","unit":"℃","type":"number"},
+    {"id":19,"name":"Battery System","unit":"%","type":"number"}
   ],
   "A": [
     {"id":1,"name":"Start","unit":"","type":"string"},

@@ -24,7 +24,8 @@
     {"id":13,"name":"Diesel Oil","unit":"%","type":"number"},
     {"id":14,"name":"Diesel Temperature","unit":"℃","type":"number"},
     {"id":15,"name":"Start Stop Status","unit":"","type":"number"},
-    {"id":16,"name":"Frequency","unit":"Hz","type":"number"}
+    {"id":16,"name":"Frequency","unit":"Hz","type":"number"},
+    {"id":17,"name":"Diesel Generator","unit":"%","type":"number"}
   ],
   "A": [
     {"id":1,"name":"Start","unit":"","type":"string"},
