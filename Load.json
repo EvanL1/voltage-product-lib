@@ -5,7 +5,18 @@
     {"id":1,"name":"Max Voltage","unit":"V","type":"number"},
     {"id":2,"name":"Max Current","unit":"A","type":"number"},
     {"id":3,"name":"Rated Frequency","unit":"Hz","type":"number"},
-    {"id":4,"name":"Max Power","unit":"kw","type":"number"}
+    {"id":4,"name":"Max Power","unit":"kw","type":"number"},
+    {"id":5,"name":"Min Power","unit":"kw","type":"number"},
+    {"id":6,"name":"Load Flexibility","unit":"","type":"string","options":["rigid","flexible","interruptible"]},
+    {"id":7,"name":"Load Criticality","unit":"","type":"string","options":["critical","non-critical"]},
+    {"id":8,"name":"Time Pattern","unit":"","type":"string","options":["base","peak","shiftable","deferrable"]},
+    {"id":9,"name":"Power Characteristic","unit":"","type":"string","options":["constant","variable","impulse"]},
+    {"id":10,"name":"Power Factor Type","unit":"","type":"string","options":["resistive","inductive","capacitive"]},
+    {"id":11,"name":"Adjustable Power Range","unit":"kw","type":"number"},
+    {"id":12,"name":"Response Time","unit":"min","type":"number"},
+    {"id":13,"name":"Min Runtime","unit":"min","type":"number"},
+    {"id":14,"name":"Max Interrupt Time","unit":"min","type":"number"},
+    {"id":15,"name":"Deferrable Time","unit":"min","type":"number"}
   ],
   "M": [
     {"id":1,"name":"Load Power","unit":"kw","type":"number"},

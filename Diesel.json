@@ -6,7 +6,12 @@
     {"id":2,"name":"Max Voltage","unit":"V","type":"number"},
     {"id":3,"name":"Max Current","unit":"A","type":"number"},
     {"id":4,"name":"Max Fuel","unit":"L","type":"number"},
-    {"id":5,"name":"Rated Frequency","unit":"Hz","type":"number"}
+    {"id":5,"name":"Rated Frequency","unit":"Hz","type":"number"},
+    {"id":6,"name":"Min Power","unit":"kw","type":"number"},
+    {"id":7,"name":"Fuel Consumption Rate","unit":"L/kWh","type":"number"},
+    {"id":8,"name":"Startup Time","unit":"min","type":"number"},
+    {"id":9,"name":"Min Runtime","unit":"min","type":"number"},
+    {"id":10,"name":"Response Time","unit":"min","type":"number"}
   ],
   "M": [
     {"id":1,"name":"Diesel Power","unit":"kw","type":"number"},

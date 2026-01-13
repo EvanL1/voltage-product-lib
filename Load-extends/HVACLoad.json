@@ -1,0 +1,26 @@
+{
+  "name": "HVACLoad",
+  "pName": "Station",
+  "category": "hvac",
+  "extends": "Load",
+  "P": [
+    {"id":50,"name":"HVAC Type","unit":"","type":"string","options":["air_conditioner","heat_pump","furnace"]},
+    {"id":51,"name":"Rated Cooling Capacity","unit":"kW","type":"number"},
+    {"id":52,"name":"Rated Heating Capacity","unit":"kW","type":"number"},
+    {"id":53,"name":"Thermal Mass","unit":"kJ/°C","type":"number"},
+    {"id":54,"name":"Heat Transfer Coefficient","unit":"W/°C","type":"number"},
+    {"id":55,"name":"Controlled Area","unit":"m²","type":"number"}
+  ],
+  "M": [
+    {"id":50,"name":"Indoor Temperature","unit":"°C","type":"number"},
+    {"id":51,"name":"Outdoor Temperature","unit":"°C","type":"number"},
+    {"id":52,"name":"Setpoint Temperature","unit":"°C","type":"number"},
+    {"id":53,"name":"HVAC Power","unit":"kw","type":"number"},
+    {"id":54,"name":"Operating Mode","unit":"","type":"string","options":["cooling","heating","off"]},
+    {"id":55,"name":"COP (Coefficient of Performance)","unit":"","type":"number"}
+  ],
+  "A": [
+    {"id":1,"name":"Setpoint Temperature","unit":"°C","type":"number","min":16,"max":30},
+    {"id":2,"name":"Temperature Deadband","unit":"°C","type":"number","min":0.5,"max":5}
+  ]
+}
