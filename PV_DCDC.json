@@ -26,7 +26,8 @@
     {"id":11,"name":"Average Efficiency","unit":"%","type":"number"},
     {"id":12,"name":"Minimum Efficiency","unit":"%","type":"number"},
     {"id":13,"name":"Solar Panels","unit":"%","type":"number"},
-    {"id":14,"name":"PV System","unit":"%","type":"number"}
+    {"id":14,"name":"PV System","unit":"%","type":"number"},
+    {"id":15,"name":"Energy Total","unit":"kwh","type":"number"}
   ],
   "A": [
     {"id":1,"name":"Start","unit":"","type":"string"},
