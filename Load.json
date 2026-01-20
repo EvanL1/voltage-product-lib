@@ -21,7 +21,8 @@
     {"id":5,"name":"Frequency","unit":"Hz","type":"number"},
     {"id":6,"name":"Power Factor","unit":"","type":"number"},
     {"id":7,"name":"Reactive Power","unit":"kVar","type":"number"},
-    {"id":8,"name":"Apparent Power","unit":"kVa","type":"number"}
+    {"id":8,"name":"Apparent Power","unit":"kVa","type":"number"},
+    {"id":10,"name":"Energy Used Today","unit":"kwh","type":"number"}
   ],
   "A": []
 }
