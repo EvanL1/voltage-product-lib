@@ -6,7 +6,8 @@
     {"id":2,"name":"Max Voltage","unit":"V","type":"number"},
     {"id":3,"name":"Max Current AC","unit":"A","type":"number"},
     {"id":4,"name":"Max Current DC","unit":"A","type":"number"},
-    {"id":5,"name":"Rated Frequency","unit":"Hz","type":"number"}
+    {"id":5,"name":"Rated Frequency","unit":"Hz","type":"number"},
+    {"id":6,"name":"Conversion Efficiency","unit":"%","type":"number"}
   ],
   "M": [
     {"id":1,"name":"Total Power","unit":"kw","type":"number"},
