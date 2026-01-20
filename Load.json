@@ -16,7 +16,8 @@
     {"id":6,"name":"Energy Increment","unit":"ΔkWh","type":"number"},
     {"id":7,"name":"Power Factor","unit":"","type":"number"},
     {"id":8,"name":"Reactive Power","unit":"kVar","type":"number"},
-    {"id":9,"name":"Apparent Power","unit":"kVa","type":"number"}
+    {"id":9,"name":"Apparent Power","unit":"kVa","type":"number"},
+    {"id":10,"name":"Energy Used Today","unit":"kwh","type":"number"}
   ],
   "A": []
 }
